@@ -6,6 +6,7 @@
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
     "eslint": "eslint .",
     "prettier": "prettier --write .",
+    "doc": "typedoc",
     "typedoc": "typedoc",
     "test": "npx vitest run",
     "coverage": "npx vitest run --coverage"
